@@ -1,0 +1,172 @@
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    header {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    header>img {
+        background-color: red;
+    }
+
+    .header-links {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        color: #000;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #000;
+    }
+    hr {
+        color: #A1A6B4;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 3%;
+        
+    }
+    .main-text {
+        margin-top: 2%;
+        width: 100%;
+    }
+    h1 {
+        color: var(--black, #121723);
+        font-family: IBM Plex Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 48px */
+    }
+    .main-cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between; /* Добавляем отступы по бокам */
+        gap: 24px;
+        padding: 0 10%;
+    }
+    .card-img {
+        width: 399px;
+
+        border-radius: 12px 12px 0px 0px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+
+    .card {
+        width: 399;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 12px;
+        border: 0px solid var(--text_gray, #A1A6B4);
+    }
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        width: 351px;
+        padding: 32px 24px;
+        gap: 10px;
+        border-radius: 0px 0px 12px 12px;
+        background: var(--white, #FFF);
+    }
+    h2 {
+        width: 323px;
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .description {
+        align-self: stretch;
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    h2, .description {
+        display: block;
+    }
+
+    .footer {
+
+        display: flex;
+        height: 142px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #121723;
+    }
+    .footer-text {
+        flex-direction: row;
+        width: 100%;
+        height: 22.32px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-links {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        color: #000;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .footer-link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .hr-footer {
+        margin-top: 32px;
+        width: 80%;
+        height: 1px;
+        background-color: #E6E8EC66;
+        border-color: #E6E8EC66;
+    }
+
+    .copyright {
+        margin-top: auto;
+        margin-bottom: 21px;
+        color: var(--text_gray, #A1A6B4);
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
